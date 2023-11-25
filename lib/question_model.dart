@@ -17,37 +17,37 @@ List<Question> getQuestions() {
   //ADD questions and answer here
 
   list.add(Question(
-    "Who is the owner of Flutter?",
+    "que marca de telefono usas?",
     [
       Answer("Nokia", false),
       Answer("Samsung", false),
-      Answer("Google", true),
+      Answer("huawei", true),
       Answer("Apple", false),
     ],
   ));
 
   list.add(Question(
-    "Who owns Iphone?",
+    "que buscador usas",
     [
-      Answer("Apple", true),
-      Answer("Microsoft", false),
-      Answer("Google", false),
-      Answer("Nokia", false),
+      Answer("mozilla firefox", true),
+      Answer("Microsoft bing", false),
+      Answer("Google  chrome", false),
+      Answer("internet explorer", false),
     ],
   ));
 
   list.add(Question(
-    "Youtube is _________  platform?",
+    "para que mas usas el telefono?",
     [
-      Answer("Music Sharing", false),
-      Answer("Video Sharing", false),
-      Answer("Live Streaming", false),
-      Answer("All of the above", true),
+      Answer("escuchar musica", false),
+      Answer("ver videos", false),
+      Answer("tomar fotos", false),
+      Answer("recibir llamadas", true),
     ],
   ));
 
   list.add(Question(
-    "Flutter user dart as a language?",
+    "te gusta la programacion",
     [
       Answer("True", true),
       Answer("False", false),
